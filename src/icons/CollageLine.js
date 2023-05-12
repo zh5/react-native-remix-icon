@@ -1,13 +1,8 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
-
-function SvgCollageLine(props) {
-  return (
-    <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-      <Path fill="none" d="M0 0h24v24H0z" />
-      <Path d="M20 3a1 1 0 011 1v16a1 1 0 01-1 1H4a1 1 0 01-1-1V4a1 1 0 011-1h16zm-8.811 10.158L5 14.25V19h7.218l-1.03-5.842zM19 5h-7.219l2.468 14H19V5zM9.75 5H5v7.218l5.842-1.03L9.75 5z" />
-    </Svg>
-  );
-}
-
+const SvgCollageLine = props => (
+  <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
+    <Path d="M20 3.106a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-16a1 1 0 0 1 1-1h16Zm-8.811 10.159L5 14.355v4.751h7.218l-1.03-5.841ZM19 5.106h-7.219l2.468 14H19v-14Zm-9.25 0H5v7.218l5.841-1.029L9.75 5.106Z" />
+  </Svg>
+);
 export default SvgCollageLine;
