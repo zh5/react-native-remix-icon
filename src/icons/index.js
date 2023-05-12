@@ -242,8 +242,6 @@ export { default as Bookmark2Fill } from "./Bookmark2Fill";
 export { default as Bookmark2Line } from "./Bookmark2Line";
 export { default as Bookmark3Fill } from "./Bookmark3Fill";
 export { default as Bookmark3Line } from "./Bookmark3Line";
-export { default as BookmarkFill } from "./BookmarkFill";
-export { default as BookmarkLine } from "./BookmarkLine";
 export { default as BootstrapFill } from "./BootstrapFill";
 export { default as BootstrapLine } from "./BootstrapLine";
 export { default as Box1Fill } from "./Box1Fill";

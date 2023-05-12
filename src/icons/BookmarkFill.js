@@ -6,5 +6,3 @@ const SvgBookmarkFill = props => (
   </Svg>
 );
 export default SvgBookmarkFill;
-;
-export default SvgBookMarkFill;

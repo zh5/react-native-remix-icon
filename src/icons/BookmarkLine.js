@@ -6,7 +6,3 @@ const SvgBookmarkLine = props => (
   </Svg>
 );
 export default SvgBookmarkLine;
-3.5 2V4Z" />
-  </Svg>
-);
-export default SvgBookMarkLine;
